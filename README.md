@@ -17,12 +17,11 @@ Disk temperature template for Zabbix via hddtemp
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-#Installation
+# Installation
 1. Install hddtemp utility (apt-get isntall hddtemp)
-2. Make sure Zabbix agent have access to run hddtemp (sudo chmod +s `which hddtemp` or add zabbix to sudo)
+2. Make sure hddtemp is running as daemon on localhost:7634 (`nc localhost 7634`)
 3. Copy hddtemp.conf to /etc/zabbix/zabbix_agentd.conf.d/
-4. Import zbx_hddtemp.xml in Zabbix templates 
+4. Import zbx_hddtemp.xml in Zabbix templates
 
 
-vovka@krevedko.su
-
+Tnx @vovka1200

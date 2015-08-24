@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2015-07-24T21:34:23Z</date>
+    <date>2015-08-24T21:34:23Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -59,13 +59,13 @@
                             <multiplier>0</multiplier>
                             <snmp_oid/>
                             <key>hddtemp.temperature[{#DEVICE}]</key>
-                            <delay>60</delay>
+                            <delay>30</delay>
                             <history>7</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
-                            <units>C</units>
+                            <units>°C</units>
                             <delta>0</delta>
                             <snmpv3_contextname/>
                             <snmpv3_securityname/>
